@@ -1,4 +1,4 @@
-import gamepad from "../public/gamepad.svg";
+import gamepad from "../public/gamepadright.svg";
 import Image from "next/image";
 import Link from "next/link";
 

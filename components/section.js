@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Section = () => {
   return (
-    <div className="container-lg bg-darknes px-10 py-10">
+    <div className="container-lg px-10 py-12">
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2">
           <div className="flex justify-center">

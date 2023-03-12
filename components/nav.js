@@ -1,24 +1,47 @@
 import Link from "next/link";
+import Image from "next/image";
+import ghost from '../public/ghost.png'
+
 const Nav = () => {
   return (
-    <div className="container-lg bg-darknes px-10 py-5">
-      <div className="flex">
-        <div className="flex-grow">
-          <div className=" text-indigo-200 font-extrabold text-2xl  font-Inter">
-            GamePad
+    <div className="container-lg px-10 py-5">
+      <div className="flex flex-wrap">
+        <div className="w-full md:w-1/3">
+          <div className=" text-indigo-200 font-extrabold text-2xl  font-Inter uppercase">
+            <Image src={ghost} alt="logo ghost" width={40}/>
           </div>
         </div>
 
-        <div className="flex-row">
-          <div className=" text-white flex justify-center gap-6 font-Inter text-xs py-2">
-            <Link href="/products">Products</Link>
-            <Link href="/categories">Categories</Link>
-            <Link href="/trending">Trending</Link>
-            <Link href="/popular">Popular</Link>
+        <div className="w-full md:w-1/3">
+          <div className="flex space-x-2 justify-center font-Inter text-white text-xs">
+            <Link
+              href="#"
+              className="hover:bg-gray-900 rounded-lg px-2 py-2 bg-gray-900"
+            >
+              Products
+            </Link>
+            <Link
+              href="#"
+              className="hover:bg-gray-900 rounded-lg px-2 py-2"
+            >
+              Categories
+            </Link>
+            <Link
+              href="#"
+              className="hover:bg-gray-900 rounded-lg px-2 py-2"
+            >
+              Trending
+            </Link>
+            <Link
+              href="#"
+              className="hover:bg-gray-900 rounded-lg px-2 py-2"
+            >
+              Popular
+            </Link>
           </div>
         </div>
 
-        <div className="flex-grow">
+        <div className="w-full md:w-1/3">
           <div className="text-white font-Inter font-medium  flex justify-end gap-4">
             <a hre="">
               <svg

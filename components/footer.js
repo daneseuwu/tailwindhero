@@ -161,7 +161,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center pt-10">
         <span className="text-gray-600 text-sm font-medium font-Inter">
           All Right Reserved. Dugadev 2023
         </span>

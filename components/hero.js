@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className="text-8xl text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-Inter ">
               We create
             </h1>
-            <h1 className="text-7xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-gray-600 to-purple-700 font-Inter">
+            <h1 className="text-8xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-gray-600 to-purple-700 font-Inter">
               our future
             </h1>
             <p className="font-Inter text-white text-sm pt-10">

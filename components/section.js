@@ -12,7 +12,7 @@ const Section = () => {
         </div>
 
         <div className="w-full md:w-1/2">
-          <h1 className="text-8xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-Inter">
+          <h1 className="text-7xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-Inter">
             Made with quality
           </h1>
 

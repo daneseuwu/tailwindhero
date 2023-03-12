@@ -16,8 +16,8 @@ const Footer = () => {
           <div className="py-10">
             <form className="flex space-x-2">
               <button
-                type="button"
-                className="text-white px-4 py-2 space-x-2 bg-indigo-400 rounded-lg font-Inter text-sm"
+                type="submit"
+                className="text-white px-4 py-2 space-x-2 bg-indigo-400 hover:bg-indigo-500 rounded-lg font-Inter text-sm"
               >
                 Suscribe
               </button>
@@ -32,6 +32,7 @@ const Footer = () => {
                 "
               />
             </form>
+            <label className="text-gray-600 pl-24 text-xs font-medium font-Inter">Suscribe for new gaming</label>
           </div>
         </div>
 
@@ -113,7 +114,6 @@ const Footer = () => {
               </ul>
 
               <ul>
-             
                 <Link
                   href="#"
                   className="text-white font-Inter text-xs hover:bg-gray-900 px-4 py-2  rounded-lg"
@@ -121,7 +121,6 @@ const Footer = () => {
                   Forum
                 </Link>
               </ul>
-              
             </div>
             <div className="">
               <h1

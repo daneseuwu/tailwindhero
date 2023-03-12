@@ -1,10 +1,11 @@
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html >
       <head>
-        <link rel="icon" type="image/x-icon" href="../public/ghost.ico" />
+
+        <title>GamePad</title>
       </head>
-      <title>GamePad</title>
+
       <body>{children}</body>
     </html>
   );

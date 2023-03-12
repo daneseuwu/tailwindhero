@@ -3,6 +3,7 @@ import Image from "next/image";
 import ghost from "../public/ghost.png";
 
 const Footer = () => {
+
   return (
     <div className="py-10">
       <div className="flex flex-wrap">
@@ -15,20 +16,20 @@ const Footer = () => {
 
           <div className="py-10">
             <form className="flex space-x-2">
-              <button
+              <label id="email"
                 type="submit"
                 className="text-white px-4 py-2 space-x-2 bg-indigo-400 hover:bg-indigo-500 rounded-lg font-Inter text-sm transition ease-in-out"
               >
                 Suscribe
-              </button>
+              </label>
 
               <input
                 type="email"
                 id="email"
                 name="email"
-                className="rounded-lg  bg-darknes text-white font-Inter text-xs px-2
+                className="rounded-lg  text-white font-Inter text-xs px-2
 
-                focus: outline-none border-slate-600 border w-80
+                focus: outline-none border-slate-600 border w-80 bg-dark
                 "
               />
             </form>

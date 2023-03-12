@@ -74,7 +74,7 @@ const Nav = () => {
 
             <Link
               href="#"
-              className=" bg-indigo-500 rounded-lg text-xs px-2 py-2 hover:bg-indigo-600"
+              className="rounded-lg text-xs px-4 py-2 bg-indigo-400 hover:bg-indigo-500 transition ease-out"
             >
               Sign Up
             </Link>

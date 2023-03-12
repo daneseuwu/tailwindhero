@@ -4,7 +4,7 @@ import ghost from "../public/ghost.png";
 
 const Footer = () => {
   return (
-    <div className="container-lg px-10 py-10">
+    <div className="container px-10 py-10">
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2">
           <div className="flex md:justify-start justify-center">

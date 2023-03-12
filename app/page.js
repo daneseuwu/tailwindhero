@@ -6,11 +6,11 @@ import Footer from "@/components/footer";
 
 const Page = () => {
   return (
-    <div className="min-h-screen  bg-darknes ">
+    <div className="container mx-auto min-h-screen  bg-darknes ">
       <Nav />
-      {/* <Hero />
+      <Hero />
       <Section />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Section = () => {
   return (
-    <div className="container px-10 py-12">
+    <div className="py-10">
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2">
           <div className="flex justify-center">
@@ -12,7 +12,7 @@ const Section = () => {
         </div>
 
         <div className="w-full md:w-1/2">
-          <h1 className="text-8xl md:text-8xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-Inter">
+          <h1 className="text-8xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-Inter">
             Made with quality
           </h1>
 

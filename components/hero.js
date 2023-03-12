@@ -4,14 +4,14 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="container px-10 py-5">
+    <div className="container py-5">
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2">
           <div className="w-full">
-            <h1 className="text-6xl md:text-8xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-Inter ">
+            <h1 className="text-8xl text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-Inter ">
               We create
             </h1>
-            <h1 className="text-6xl md:text-8xl   text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-gray-600 to-purple-700 font-Inter">
+            <h1 className="text-7xl  text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-gray-600 to-purple-700 font-Inter">
               our future
             </h1>
             <p className="font-Inter text-white text-sm pt-10">

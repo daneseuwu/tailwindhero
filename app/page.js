@@ -6,7 +6,7 @@ import Footer from "@/components/footer";
 
 const Page = () => {
   return (
-    <div className="container mx-auto min-h-screen  bg-darknes ">
+    <div className="container mx-auto min-h-screen px-10  bg-darknes ">
       <Nav />
       <Hero />
       <Section />

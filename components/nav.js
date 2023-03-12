@@ -4,7 +4,7 @@ import ghost from '../public/ghost.png'
 
 const Nav = () => {
   return (
-    <div className="container px-10 py-5">
+    <div className=" py-5">
 
       <div className="flex">
 

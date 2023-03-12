@@ -4,7 +4,7 @@ import ghost from "../public/ghost.png";
 
 const Footer = () => {
   return (
-    <div className="container px-10 py-10">
+    <div className="py-10">
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2">
           <div className="flex md:justify-start justify-center">
@@ -17,7 +17,7 @@ const Footer = () => {
             <form className="flex space-x-2">
               <button
                 type="submit"
-                className="text-white px-4 py-2 space-x-2 bg-indigo-400 hover:bg-indigo-500 rounded-lg font-Inter text-sm"
+                className="text-white px-4 py-2 space-x-2 bg-indigo-400 hover:bg-indigo-500 rounded-lg font-Inter text-sm transition ease-in-out"
               >
                 Suscribe
               </button>
@@ -32,7 +32,9 @@ const Footer = () => {
                 "
               />
             </form>
-            <label className="text-gray-600 pl-24 text-xs font-medium font-Inter">Suscribe for new gaming</label>
+            <label className="text-gray-600 pl-24 text-xs font-medium font-Inter">
+              Suscribe for new gaming
+            </label>
           </div>
         </div>
 
@@ -158,6 +160,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <span className="text-gray-600 text-sm font-medium font-Inter">
+          All Right Reserved. Dugadev 2023
+        </span>
       </div>
     </div>
   );

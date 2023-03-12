@@ -6,9 +6,11 @@ import Section from "@/components/section";
 const Page = () => {
   return (
     <div>
-   
-      <Hero /> 
+
+      {/* <Nav /> */}
+      {/* <Hero /> */}
       <Section />
+      
     </div>
   );
 };

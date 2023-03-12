@@ -8,9 +8,9 @@ const Page = () => {
   return (
     <div className="min-h-screen  bg-darknes ">
       <Nav />
-      <Hero />
+      {/* <Hero />
       <Section />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

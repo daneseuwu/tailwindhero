@@ -4,15 +4,17 @@ import ghost from '../public/ghost.png'
 
 const Nav = () => {
   return (
-    <div className="container-lg px-10 py-5">
-      <div className="flex flex-wrap">
-        <div className="w-full md:w-1/3">
+    <div className="container px-10 py-5">
+
+      <div className="flex">
+
+        <div className="flex-grow">
           <div className=" text-indigo-200 font-extrabold text-2xl  font-Inter uppercase">
             <Image src={ghost} alt="logo ghost" width={40}/>
           </div>
         </div>
 
-        <div className="w-full md:w-1/3">
+        <div className="md:flex hidden">
           <div className="flex space-x-2 justify-center font-Inter text-white text-xs">
             <Link
               href="#"
@@ -41,8 +43,8 @@ const Nav = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-1/3">
-          <div className="text-white font-Inter font-medium  flex justify-end gap-4">
+        <div className="flex-grow">
+          <div className="text-white font-Inter font-medium justify-end flex space-x-2">
             <a hre="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -71,8 +73,8 @@ const Nav = () => {
             </a>
 
             <Link
-              href="/signup"
-              className=" bg-indigo-500 rounded-lg text-xs lg:px-2 lg:py-2 hover:bg-indigo-600"
+              href="#"
+              className=" bg-indigo-500 rounded-lg text-xs px-2 py-2 hover:bg-indigo-600"
             >
               Sign Up
             </Link>

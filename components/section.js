@@ -1,4 +1,4 @@
-import gamepadleft from "../public/gamepadright.svg";
+import gamepadleft from "../public/gamepadleft.svg";
 import Image from "next/image";
 
 const Section = () => {

@@ -1,3 +1,7 @@
+![img](https://github.com/dugadev/tailwindhero/blob/master/public/1.png)
+![img](https://github.com/dugadev/tailwindhero/blob/master/public/2.png)
+![img](https://github.com/dugadev/tailwindhero/blob/master/public/3.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
